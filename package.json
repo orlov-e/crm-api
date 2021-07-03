@@ -1,0 +1,39 @@
+{
+  "name": "crm_application_api",
+  "version": "1.0.0",
+  "description": "API using express, MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Eugene Orlov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orlov-e/crm-application-api..git"
+  },
+  "bugs": {
+    "url": "https://github.com/orlov-e/crm-application-api./issues"
+  },
+  "homepage": "https://github.com/orlov-e/crm-application-api.#readme"
+}
